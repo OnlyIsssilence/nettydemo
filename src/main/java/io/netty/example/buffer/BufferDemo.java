@@ -21,8 +21,8 @@ public class BufferDemo {
         logger.info("position:{},limit:{},capacity:{}", intBuffer.position(), intBuffer.limit(), intBuffer.capacity());
         intBuffer.put(10);
 
-        Map<String,String> map = new HashMap<String, String>(3);
-        map.put("1","hello");
+        Map<String, String> map = new HashMap<String, String>(3);
+        map.put("1", "hello");
 
 
         for (int i = 0; i < 11; i++) {
